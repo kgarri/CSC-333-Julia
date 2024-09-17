@@ -28,8 +28,8 @@ end
 function main()
     Threads.nthreads()
     println(Threads.nthreads())
-    timefunc(regFib, 23)
-    timefunc(fib, 23)
+    timefunc(regFib, 46)
+    timefunc(fib, 46)
 end
 
 main()
